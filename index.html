@@ -1,0 +1,1482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketairre</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Syne:wght@400..800&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="./assets/img/favicon.webp" sizes="32x32">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/aos.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <style>
+        .slick-slider {
+            position: relative;
+            display: block;
+            box-sizing: border-box;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            -webkit-touch-callout: none;
+            -khtml-user-select: none;
+            -ms-touch-action: pan-y;
+            touch-action: pan-y;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .slick-list {
+            position: relative;
+            display: block;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
+
+        .slick-list:focus {
+            outline: none;
+        }
+
+        .slick-list.dragging {
+            cursor: pointer;
+            cursor: hand;
+        }
+
+        .slick-slider .slick-track,
+        .slick-slider .slick-list {
+            -webkit-transform: translate3d(0, 0, 0);
+            -moz-transform: translate3d(0, 0, 0);
+            -ms-transform: translate3d(0, 0, 0);
+            -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
+
+        .slick-track {
+            position: relative;
+            top: 0;
+            left: 0;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .slick-track:before,
+        .slick-track:after {
+            display: table;
+            content: '';
+        }
+
+        .slick-track:after {
+            clear: both;
+        }
+
+        .slick-loading .slick-track {
+            visibility: hidden;
+        }
+
+        .slick-slide {
+            display: none;
+            float: left;
+            height: 100%;
+            min-height: 1px;
+        }
+
+        [dir='rtl'] .slick-slide {
+            float: right;
+        }
+
+        .slick-slide img {
+            display: block;
+        }
+
+        .slick-slide.slick-loading img {
+            display: none;
+        }
+
+        .slick-slide.dragging img {
+            pointer-events: none;
+        }
+
+        .slick-initialized .slick-slide {
+            display: block;
+        }
+
+        .slick-loading .slick-slide {
+            visibility: hidden;
+        }
+
+        .slick-vertical .slick-slide {
+            display: block;
+            height: auto;
+            border: 1px solid transparent;
+        }
+
+        .slick-arrow.slick-hidden {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="smooth-wrapper">
+        <div id="smooth-content">
+            <!-- <div class="cursor" id="cursor">
+            </div> -->
+
+            <header class="bi-header">
+                <div class="container-fluid">
+                    <div class="header-wrapper">
+                        <div class="header-item">
+                            <a href="./index.html"><img src="./assets/img/marketairre-logo-slider.png" class="img-fluid"
+                                    loading="eager" /></a>
+                        </div>
+                        <div class="header-item text-center">
+                            <h5>Excellence that <br>
+                                Distinguishes!</h5>
+                        </div>
+                        <div class="header-right">
+                            <div class="header-item">
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#modal" data-price="N/A"
+                                    data-title="Header Contact" class="bi-btn white open-modal">
+                                    Hire us <img src="./assets/img/arrow.png" class="img-fluid" /></a>
+                            </div>
+                            <div class="header-item menu">
+
+                                <img data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
+                                    aria-controls="offcanvasTop" src="./assets/img/menu-icon.png"
+                                    class="img-fluid menu-icon" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <section class="bi-hero d-flex flex-column justify-content-center align-items-center">
+                <video autoplay loop muted class="hero-video-bg">
+                <source src="./assets/img/hero-bg-video.mp4" type="video/mp4" >
+                    Your browser does not support the video tag.
+                </video>
+                <a href="#scroll-down" class="scroll-down"><img src="./assets/img/hero-scroll.png"
+                        class="img-fluid hero-scroll" /></a>
+                <div class="hero-cursor" id="hero-cursor">
+                </div>
+                <div class="container-fluid h-100">
+                    <div class="d-flex h-100 flex-column justify-content-center align-items-center">
+                        <div class="heading-wrapper">
+                            <h1 class="hero-heading">digital <span class="blend">experience</span> agency</h1>
+                        </div>
+                        <div class="success-wrapper">
+                            <div class="success-content">
+                                <span class="letter">S</span>
+                                <span class="letter">u</span>
+                                <span class="letter">c</span>
+                                <span class="letter">s</span>
+                                <span class="letter">s</span>
+                                <span class="letter">e</span>
+                                <span class="letter">s</span>
+                                <span class="letter">s</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bi-about" id="scroll-down">
+                <img src="./assets/img/overlays-bg.png" class="img-fluid overlay-img" loading="lazy" />
+                <div class="container">
+                    <div class="row justify-content-between align-items-start">
+                        <div class="col-md-3 col-12">
+                            <div class="sub-heading-wrapper">
+                                <p class="theme-para blur-anim">
+                                    We Believe In The Power Of Design And Its Ability To Define And Transform Brands.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-7 col-12">
+                            <div class="main-content-wrapper blur-anim">
+                                <p>
+                                    Its our commitment to excellence that distinguishes us. Our expertise spans the
+                                    realms
+                                    of
+                                    <span class="gradient-heading">branding, UI/UX design, and development,</span> where
+                                    we
+                                    employ a strategic approach. We seamlessly
+                                    coordinate across various disciplines and services to craft exceptional <span
+                                        class="text-black fw-bold">products.</span>
+                                </p><br>
+                                <p>
+                                    Our mission is to empower <span class="text-black fw-bold">global enterprises to
+                                        unlock
+                                        their maximum capabilities.</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bi-services">
+                <div class="container-fluid">
+                    <img src="./assets/img/service-bottom-overlay.png" class="img-fluid service-overlay"
+                        loading="lazy" />
+                    <div class="container">
+                        <img src="./assets/img/service-glove.png" class="img-fluid globe" loading="lazy" />
+                        <div class="top-content text-white">
+                            <h2 class="theme-heading top-blur-anim">
+                                services across the globe
+                            </h2>
+                            <p class="theme-para top-blur-anim">
+                                We delivered web design, UX/UI and digital projects to 29+ countries, creating lasting
+                                experiences tapped and clicked by millions worldwide.
+                            </p>
+                        </div>
+                        <div class="row justify-content-start align-items-start service-blur-anim">
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="service-wrapper down">
+                                    <div class="service-top">
+                                        <img src="./assets/img/favicon.png" class="img-fluid" loading="lazy" />
+                                        <h3>
+                                            App Development
+                                        </h3>
+                                        <p>
+                                            Captivate your users with feature-rich Android, iOS, or hybrid applications
+                                        </p>
+                                    </div>
+                                    <img src="./assets/img/service-1.png" class="img-fluid" loading="lazy" />
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="service-wrapper alt">
+                                    <div class="service-top">
+                                        <img src="./assets/img/favicon.png" class="img-fluid" loading="lazy" />
+                                        <h3>
+                                            Website Development
+                                        </h3>
+                                        <p>
+                                            Using emotional intelligence and a strategic plan of action, we go the extra
+                                            mile
+                                        </p>
+                                    </div>
+                                    <img src="./assets/img/service-2.png" class="img-fluid" loading="lazy" />
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="service-wrapper down">
+                                    <div class="service-top">
+                                        <img src="./assets/img/favicon.png" class="img-fluid" loading="lazy" />
+                                        <h3>
+                                            Digital Marketing
+                                        </h3>
+                                        <p>
+                                            Gone are the days of attracting customers with a catchy ad on the radio.
+                                        </p>
+                                    </div>
+                                    <img src="./assets/img/service-3.png" class="img-fluid" loading="lazy" />
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="service-wrapper margin-top down">
+                                    <div class="service-top">
+                                        <img src="./assets/img/favicon.png" class="img-fluid" loading="lazy" />
+                                        <h3>
+                                            Book Publishing
+                                        </h3>
+                                        <p>
+                                            Our editors meticulously refine your manuscript, enhancing clarity,
+                                            structure, and flow.
+                                        </p>
+                                    </div>
+                                    <img src="./assets/img/service-4.png" class="img-fluid" loading="lazy" />
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="service-wrapper margin-top alt">
+                                    <div class="service-top">
+                                        <img src="./assets/img/favicon.png" class="img-fluid" loading="lazy" />
+                                        <h3>
+                                            Logo & Branding
+                                        </h3>
+                                        <p>
+                                            Do you have a business idea? Let's push it into becoming a reality.
+                                        </p>
+                                    </div>
+                                    <img src="./assets/img/service-5.png" class="img-fluid" loading="lazy" />
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="service-wrapper margin-top down">
+                                    <div class="service-top">
+                                        <img src="./assets/img/favicon.png" class="img-fluid" loading="lazy" />
+                                        <h3>
+                                            SEO Services
+                                        </h3>
+                                        <p>
+                                            Partner with the future face of the digital marketing world to give your
+                                            business
+                                        </p>
+                                    </div>
+                                    <img src="./assets/img/service-6.png" class="img-fluid" loading="lazy" />
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="service-wrapper margin-top down">
+                                    <div class="service-top">
+                                        <img src="./assets/img/favicon.png" class="img-fluid" loading="lazy" />
+                                        <h3>
+                                            SMM Services
+                                        </h3>
+                                        <p>
+                                            In a world where the shackles of social media platforms are tightly binding
+                                            consumers
+                                        </p>
+                                    </div>
+                                    <img src="./assets/img/service-7.png" class="img-fluid" loading="lazy" />
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="service-wrapper margin-top alt">
+                                    <div class="service-top">
+                                        <img src="./assets/img/favicon.png" class="img-fluid" loading="lazy" />
+                                        <h3>
+                                            PPC Services
+                                        </h3>
+                                        <p>
+                                            In a world where the shackles of social media platforms are tightly binding
+                                            consumers
+                                        </p>
+                                    </div>
+                                    <img src="./assets/img/service-8.png" class="img-fluid" loading="lazy" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bi-crafting-experience">
+                <img src="./assets/img/crafting-overlay.png" class="img-fluid overlay" loading="lazy" />
+                <div class="container">
+                    <h2 class="theme-heading top-blur-anim">
+                        crafting digital experiences
+                    </h2>
+                    <p class="theme-para top-blur-anim">
+                        The world moves fast, we keep pace. <br>
+                        Cut through the noise with our process.
+                    </p>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal" data-price="N/A"
+                        data-title="Header Contact" class="bi-btn top-blur-anim open-modal">
+                        Hire us <img src="./assets/img/arrow.png" class="img-fluid" loading="lazy" />
+                    </a>
+                    <div class="row">
+                        <div class="col-md-5 col-12">
+                        </div>
+                        <div class="col-md-7 col-12">
+                            <div class="crafting-wrapper blur-anim-2">
+                                <div class="crafting-item crafting-item-anim">
+                                    <img src="./assets/img/crafting-1.png" class="img-fluid" loading="lazy" />
+                                    <h3>Your Success, Our Mission</h3>
+                                    <p>
+                                        We measure our success by the success of our clients. With a focus on results
+                                        and a
+                                        dedication to quality, our mission is to deliver digital solutions that make a
+                                        real
+                                        impact.
+                                    </p>
+                                </div>
+                                <div class="crafting-item crafting-item-anim">
+                                    <img src="./assets/img/crafting-2.png" class="img-fluid" loading="lazy" />
+                                    <h3>Creators Of Digital Excellence</h3>
+                                    <p>
+                                        At the core of our agency is a commitment to excellence and creativity. We
+                                        specialize in
+                                        crafting digital solutions that not only meet your needs but also elevate your
+                                        brand.
+                                    </p>
+                                </div>
+                                <div class="crafting-item crafting-item-anim">
+                                    <img src="./assets/img/crafting-3.png" class="img-fluid" loading="lazy" />
+                                    <h3>innovating the digital landscape</h3>
+                                    <p>
+                                        At the core of our agency is a commitment to excellence and creativity. We
+                                        specialize in
+                                        crafting digital solutions that not only meet your needs but also elevate your
+                                        brand.
+                                    </p>
+                                </div>
+                                <div class="crafting-item crafting-item-anim">
+                                    <img src="./assets/img/crafting-4.png" class="img-fluid" loading="lazy" />
+                                    <h3>Helping Brands Thrive Online</h3>
+                                    <p>
+                                        Our purpose is simple: to help brands succeed in the digital age. We're
+                                        passionate
+                                        about
+                                        building strong relationships with our clients & crafting custom strategies that
+                                        drive
+                                        results.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bi-counter-section">
+                <div class="container-fluid">
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-md-6 col-12">
+                            <div class="elevate-wrapper counter-item-anim">
+                                <img src="./assets/img/counter-1.png" class="img-fluid h-100 w-100" loading="lazy" />
+                                <div class="elevate-content">
+                                    <h3>
+                                        Elevate Your Brand with Next- Gen AI Solutions
+                                    </h3>
+                                    <p>
+                                        We are passionate about delivering innovative solutions tailored to your unique
+                                        goals.
+                                    </p>
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal" data-price="N/A"
+                                        data-title="Header Contact" class="bi-btn outline transparent open-modal">
+                                        Ready to Start ?
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <div class="elevate-wrapper counter-item-anim">
+                                <img src="./assets/img/counter-2.png" class="img-fluid h-100 w-100" loading="lazy" />
+                                <div class="elevate-content counter">
+                                    <h3>
+                                        750+
+                                    </h3>
+                                    <p>
+                                        Successful Projects
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-start counter-flex">
+                                <div class="headphone-girl counter-item-anim">
+                                    <img src="./assets/img/counter-3.png" class="img-fluid h-100 w-100"
+                                        loading="lazy" />
+                                </div>
+                                <div class="counter-wrapper counter-item-anim">
+                                    <img src="./assets/img/counter-4.png" class="img-fluid h-100 w-100"
+                                        loading="lazy" />
+                                    <div class="elevate-content counter small">
+                                        <h3>
+                                            15+
+                                        </h3>
+                                        <p>
+                                            Years of Experience
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bi-projects">
+                <div class="container-fluid">
+                    <div class="container">
+                        <div class="top-content text-white">
+                            <h2 class="theme-heading top-blur-anim">
+                                some of our recent projects
+                            </h2>
+                            <p class="theme-para top-blur-anim">
+                                We delivered web design, UX/UI and digital projects to 29+ countries, creating lasting
+                                experiences tapped and clicked by millions worldwide.
+                            </p>
+                        </div>
+
+                        <div class="projects-list">
+                            <div class="projects-list-item" data-aos="fade-up" data-aos-anchor-placement="top-center"
+                                data-aos-offset="0">
+                                <div class="row justify-content-between align-items-center">
+                                    <div class="col-md-7 col-12">
+                                        <div class="list-content">
+                                            <h3>
+                                                app design & development
+                                            </h3>
+                                            <div class="projects-highlights">
+                                                <div>
+                                                    Creative web design
+                                                </div>
+                                                <div>
+                                                    Web development
+                                                </div>
+                                                <div>
+                                                    Copywriting
+                                                </div>
+                                                <div>
+                                                    E-Commerce
+                                                </div>
+                                                <div>
+                                                    WordPress
+                                                </div>
+                                            </div>
+                                            <p class="theme-para">
+                                                Crafting digital experiences where beauty meets ROI, turning heads and
+                                                unlocking revenue potential with every click.
+                                            </p>
+                                            <a href="./app-development.html" class="bi-btn transparent">
+                                                Find out more <img src="./assets/img/arrow.png" class="img-fluid"
+                                                    loading="lazy" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5 col-12">
+                                        <div class="list-img">
+                                            <img src="./assets/img/projects-1.jpg" class="img-fluid" loading="lazy" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="projects-list-item">
+                                <div class="row justify-content-between align-items-center">
+                                    <div class="col-md-7 col-12">
+                                        <div class="list-content">
+                                            <h3>
+                                                web design & development
+                                            </h3>
+                                            <div class="projects-highlights">
+                                                <div>
+                                                    Brand strategy
+                                                </div>
+                                                <div>
+                                                    Tone of voice
+                                                </div>
+                                                <div>
+                                                    Visual identity
+                                                </div>
+                                            </div>
+                                            <p class="theme-para">
+                                                Crafting digital experiences where beauty meets ROI, turning heads and
+                                                unlocking revenue potential with every click.
+                                            </p>
+                                            <a href="./website-design.html" class="bi-btn transparent">
+                                                Find out more <img src="./assets/img/arrow.png" class="img-fluid"
+                                                    loading="lazy" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5 col-12">
+                                        <div class="list-img">
+                                            <img src="./assets/img/projects-2.jpg" class="img-fluid" loading="lazy" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="projects-list-item">
+                                <div class="row justify-content-between align-items-center">
+                                    <div class="col-md-7 col-12">
+                                        <div class="list-content">
+                                            <h3>
+                                                digital marketing
+                                            </h3>
+                                            <div class="projects-highlights">
+                                                <div>
+                                                    Motion graphics
+                                                </div>
+                                                <div>
+                                                    Creative campaigns
+                                                </div>
+                                                <div>
+                                                    Marketing support
+                                                </div>
+                                            </div>
+                                            <p class="theme-para">
+                                                Crafting digital experiences where beauty meets ROI, turning heads and
+                                                unlocking revenue potential with every click.
+                                            </p>
+                                            <a href="./marketing.html" class="bi-btn transparent">
+                                                Find out more <img src="./assets/img/arrow.png" class="img-fluid"
+                                                    loading="lazy" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5 col-12">
+                                        <div class="list-img">
+                                            <img src="./assets/img/projects-3.jpg" class="img-fluid" loading="lazy" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="top-content second text-white">
+                            <h2 class="theme-heading">
+                                results speaks louder than words
+                            </h2>
+                            <p class="theme-para">
+                                We delivered web design, UX/UI and digital projects to 29+ countries, creating lasting
+                                experiences tapped and clicked by millions worldwide.
+                            </p>
+                        </div>
+
+                        <div class="projects-slider">
+                            <div class="projects-slider-item">
+                                <div class="row justify-content-between align-items-start">
+                                    <div class="col-md-5 col-12">
+                                        <div class="projects-slider-content">
+                                            <img src="./assets/img/projects-slider-logo.png" class="img-fluid"
+                                                loading="lazy" />
+                                            <h3 class="gradient-heading">
+                                                104.9%
+                                            </h3>
+                                            <p class="theme-para">
+                                                increase in organic visits after 1 month
+                                            </p>
+                                            <a href="#" class="bi-btn transparent">
+                                                View Project <img src="./assets/img/arrow.png" class="img-fluid"
+                                                    loading="lazy" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-12">
+                                        <div class="projects-slider-img">
+                                            <img src="./assets/img/project-slider-1.png" class="img-fluid"
+                                                loading="lazy" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bi-logos">
+                <div class="brands-slider-1">
+                    <div class="slider-item">
+                        <img src="./assets/img/1.png" class="img-fluid" loading="lazy" />
+                    </div>
+                    <div class="slider-item">
+                        <img src="./assets/img/2.png" class="img-fluid" loading="lazy" />
+                    </div>
+                    <div class="slider-item">
+                        <img src="./assets/img/4.png" class="img-fluid" loading="lazy" />
+                    </div>
+                    <div class="slider-item">
+                        <img src="./assets/img/5.png" class="img-fluid" loading="lazy" />
+                    </div>
+                    <div class="slider-item">
+                        <img src="./assets/img/6.png" class="img-fluid" loading="lazy" />
+                    </div>
+                    <div class="slider-item">
+                        <img src="./assets/img/7.png" class="img-fluid" loading="lazy" />
+                    </div>
+                    <div class="slider-item">
+                        <img src="./assets/img/15.png" class="img-fluid" loading="lazy" />
+                    </div>
+                </div>
+                <div class="brands-slider-2" dir="rtl">
+                    <div class="slider-item">
+                        <img src="./assets/img/8.png" class="img-fluid" loading="lazy" />
+                    </div>
+                    <div class="slider-item">
+                        <img src="./assets/img/9.png" class="img-fluid" loading="lazy" />
+                    </div>
+                    <div class="slider-item">
+                        <img src="./assets/img/10.png" class="img-fluid" loading="lazy" />
+                    </div>
+                    <div class="slider-item">
+                        <img src="./assets/img/11.png" class="img-fluid" loading="lazy" />
+                    </div>
+                    <div class="slider-item">
+                        <img src="./assets/img/12.png" class="img-fluid" loading="lazy" />
+                    </div>
+                    <div class="slider-item">
+                        <img src="./assets/img/13.png" class="img-fluid" loading="lazy" />
+                    </div>
+                    <div class="slider-item">
+                        <img src="./assets/img/14.png" class="img-fluid" loading="lazy" />
+                    </div>
+                </div>
+            </section>
+
+            <section class="bi-testimonial">
+                <div class="container-fluid">
+                    <img src="./assets/img/testimonial-overlay.png" class="img-fluid testimonial-overlay"
+                        loading="lazy" />
+                    <div class="container">
+                        <div class="bi-testimonial-wrapper">
+                            <div class="row justify-content-between align-items-center">
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="testimonial-content-wrapper text-white">
+                                        <h2 class="theme-heading">
+                                            what our customer says
+                                        </h2>
+                                        <p class="theme-para">
+                                            The world moves fast, we keep pace. Cut through the noise with our process.
+                                        </p>
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#modal" data-price="N/A"
+                                            data-title="Header Contact" class="bi-btn white open-modal">
+                                            Hire us
+                                            <img src="./assets/img/arrow.png" class="img-fluid" loading="lazy" />
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-8 col-md-6 col-12">
+                                    <div class="testimonial-wrapper">
+                                        <div class="testimonial-item">
+                                            <img src="./assets/img/testimonial-1.png" class="img-fluid"
+                                                loading="lazy" />
+                                            <p class="testimonial-content">
+                                                "As a design agency, handing responsibility for our web re-design to
+                                                another
+                                                creative agency needed to be well
+                                                considered. We were immediately impressed by their
+                                                designs and their interpretation of our brief. Nice bunch of people to
+                                                work
+                                                with too!"
+                                            </p>
+                                            <div class="author">
+                                                <h2>Laurie Bushe</h2>
+                                                <h2>Head of Marketing</h2>
+                                            </div>
+                                            <a href="#" class="bi-btn transparent black">
+                                                View project
+                                                <img src="./assets/img/arrow.png" class="img-fluid" loading="lazy" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bi-faq-wrapper">
+                            <h2 class="theme-heading text-white">
+                                frequently asked questions
+                            </h2>
+                            <div class="accordion" id="accordionExample">
+                                <!-- Item 1 -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            How much does web design and development typically cost?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <strong>This is the first item’s accordion body.</strong> It is shown by
+                                            default...
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Item 2 -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            How long does a project usually take?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <strong>This is the second item’s accordion body.</strong> It is hidden by
+                                            default...
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Item 3 -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="false" aria-controls="collapseThree">
+                                            Can your creative agency accommodate tight deadlines?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <strong>This is the third item’s accordion body.</strong> It is hidden by
+                                            default...
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Item 4 -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                            aria-expanded="false" aria-controls="collapseFour">
+                                            Do you offer ongoing support and maintenance?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFour" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <strong>This is the fourth item’s accordion body.</strong> We provide
+                                            optional ongoing support plans to help with updates, bug fixes, and
+                                            optimizations.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Item 5 -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseFive"
+                                            aria-expanded="false" aria-controls="collapseFive">
+                                            What platforms or technologies do you specialize in?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFive" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <strong>This is the fifth item’s accordion body.</strong> We work with
+                                            modern technologies like HTML5, CSS3, JavaScript, React, WordPress, and
+                                            more.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Item 6 -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseSix"
+                                            aria-expanded="false" aria-controls="collapseSix">
+                                            Is SEO included in your web development services?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseSix" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <strong>This is the sixth item’s accordion body.</strong> Basic SEO best
+                                            practices are included, and we offer advanced SEO packages if needed.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bi-celebrating">
+                <div class="container-fluid">
+                    <img src="./assets/img/celebrating-overlay.png" class="img-fluid celebrating-overlay"
+                        loading="lazy" />
+                    <div class="celebrating-wrapper">
+                        <h3>
+                            Celebrating 15 years
+                        </h3>
+                        <div class="logo-slider">
+                            <div class="item">
+                                <h2>Marketairre</h2>
+                            </div>
+                            <div class="item">
+                                <h2>Marketairre</h2>
+                            </div>
+                            <div class="item">
+                                <h2>Marketairre</h2>
+                            </div>
+                            <div class="item">
+                                <h2>Marketairre</h2>
+                            </div>
+                            <div class="item">
+                                <h2>Marketairre</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="bi-footer">
+                <div class="container-fluid">
+                    <div class="container">
+                        <div class="row justify-content-between align-items-start">
+                            <div class="col-md-6 col-12">
+                                <div class="footer-left">
+                                    <img src="./assets/img/marketairre-logo-slider.png" class="img-fluid"
+                                        loading="lazy" />
+                                    <div class="footer-list">
+                                        <a href="#"><span>LinkedIn</span></a>
+                                        <a href="#"><span>Facebook</span></a>
+                                        <a href="#"><span>Instagram</span></a>
+                                    </div>
+                                    <div class="footer-list">
+                                        <a href="#"><span>Contact</span></a>
+                                        <a href="#"><span>FAQs</span></a>
+                                        <a href="#"><span>Privacy Policy</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="footer-right">
+                                    <a href="mailto:info@marketairre.org">info@marketairre.org</a>
+                                    <img src="./assets/img/footer-logos.png" class="img-fluid" loading="lazy" />
+                                    <a href="#" class="bi-btn transparent">
+                                        Sign up to our newsletter
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container bottom-footer">
+                        <div class="d-flex justify-content-start align-items-center">
+                            <p>Our sectors :</p>
+                            <a href="#">Agencies</a>
+                            <a href="#">SaaS and Tech</a>
+                            <a href="#">B2B Transformation</a>
+                            <a href="#">Healthcare</a>
+                            <a href="#">Media & Entertainment</a>
+                            <a href="#">Retail</a>
+                        </div>
+                        <div class="copywrite">
+                            © MARKETAIRRE 2025
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" id='modal-close' data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h3 class="package-name text-white" id='modal-package'>
+                    </h3>
+                    <div class="package-price text-white" id='modal-price-number'>
+                    </div>
+                    <button type="button" class="btn-close" id='modal-close' data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                    <!-- Your form here -->
+                    <form class="bi-form" method="post">
+                        <input type="hidden" name="PackagePrice" id="modal-price" />
+                        <input type="hidden" name="Packagetitle" id="modal-title" />
+
+                        <div class="row justify-content-between align-items-center">
+                            <div class="col-12">
+                                <input type="text" name="name" placeholder="Your Name" required />
+                            </div>
+                            <div class="col-12">
+                                <input type="tel" name="phone" placeholder="Phone Number" required />
+                            </div>
+                            <div class="col-12">
+                                <input type="email" name="email" placeholder="Email Address" required />
+                            </div>
+                            <button class="bi-btn w-100">Submit Now</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="menu">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about-us.html">About</a></li>
+                <li><a href="">Service</a>
+                    <ul class="service-menu">
+                        <li>
+                            <a href="./app-development.html"> App Development</a>
+                        </li>
+                        <li>
+                            <a href="./website-design.html"> Website Design</a>
+                        </li>
+                        <li>
+                            <a href="./logo-design.html"> Logo Design</a>
+                        </li>
+                        <li>
+                            <a href="./social-media.html"> Social Media Marketing</a>
+                        </li>
+                        <li>
+                            <a href="./seo.html"> Search Engine Optimization</a>
+                        </li>
+                        <li>
+                            <a href="./marketing.html"> Digital Marketing</a>
+                        </li>
+                        <li>
+                            <a href="./book-publishing.html"> Book Publishing</a>
+                        </li>
+                        <li>
+                            <a href="./ppc.html"> Pay Per Click (PPC)</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="./contact-us.html"> Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <script src="./assets/js/jquery-3.7.0.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js//aos.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+    <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/gsap@3/dist/ScrollSmoother.min.js"></script>
+    <script src="./assets/js/custom.js"></script>
+    <script>
+        const heroHeading = gsap.timeline({ defaults: { duration: 1, ease: "power1.inOut" } });
+
+        heroHeading.to(".header-item", {
+            y: 0,
+            opacity: 1,
+            duration: 1,
+            stagger: .1,
+        })
+            .to(".hero-heading", {
+                rotation: 0,
+                y: 0,
+                duration: 1,
+            }, "<+0.1")
+            .to(".hero-scroll", {
+                y: 0,
+                opacity: 1,
+                duration: 1,
+                scale: 1,
+            }, "<+0.3")
+            .to(".success-content", {
+                y: 0,
+                opacity: 1,
+                duration: 2,
+                ease: "power3.inOut",
+                clipPath: "polygon(0 0, 105% 0, 105% 105%, 0 105%)",
+            }, "<+0.2")
+
+
+        const offcanvasMenu = document.querySelector('.offcanvas-top');
+        const menuItems = document.querySelectorAll('.menu li');
+        const closeBtn = document.querySelector('.offcanvas-header .btn-close');
+        const menuBtn = document.querySelector('.menu-icon');
+
+        function toggleMenu(open) {
+        const tl = gsap.timeline({ defaults: { ease: "power1.inOut", duration: .5 } });
+
+        if (open) {
+            tl.fromTo(offcanvasMenu,
+            { y: -500, },
+            { y:0, }
+            ).fromTo(menuItems,
+            { y: -10, opacity: 0, scale: 0.9 },
+            { y: 0, opacity: 1, scale: 1, stagger: 0.1 },
+            "-=0.2"
+            );
+        } else {
+            gsap.to(menuItems, { y: -10, opacity: 0, scale: 0.9, duration: 0.5 });
+            gsap.to(offcanvasMenu, {
+            y:-500,
+            });
+        }
+        }
+
+        menuBtn.addEventListener("click", () => toggleMenu(true));
+        closeBtn.addEventListener("click", () => toggleMenu(false));
+
+
+        ScrollTrigger.matchMedia({
+
+            "(min-width: 992px)": function () {
+                // Cursor logic
+                const cursorhero = document.querySelector("#hero-cursor");
+                const hero = document.querySelector(".bi-hero");
+
+                hero.addEventListener("mousemove", (e) => {
+                    const rect = hero.getBoundingClientRect();
+                    const x = e.clientX - rect.left;
+                    const y = e.clientY - rect.top;
+
+                    gsap.to(cursorhero, {
+                        x: x,
+                        y: y,
+                        duration: 0.2,
+                        ease: "power2.out"
+                    });
+                });
+
+                gsap.to(".heading-wrapper",
+                    {
+                        scrollTrigger: {
+                            trigger: ".heading-wrapper",
+                            start: "top 25%",
+                            end: "top -100%",
+                            scrub: 1,
+                            // markers: true,
+                        },
+                        y: -1000,
+                        opacity: 0,
+                        scale: 0,
+                        duration: 2,
+                    }
+                );
+
+                gsap.to(".letter",
+                    {
+                        scrollTrigger: {
+                            trigger: ".success-wrapper",
+                            start: "top 30%",
+                            end: "bottom 0%",
+                            scrub: 1,
+                            // markers: true,
+                        },
+                        z: -400,
+                        y: 500,
+                        rotateX: 180,
+                        duration: 2,
+                        opacity: 0,
+                        stagger: .2,
+                    }
+                );
+
+                gsap.to(".overlay", {
+                    scrollTrigger: {
+                        trigger: ".overlay",
+                        start: "top 75%",
+                        end: "top -10%",
+                        scrub: 2,
+                        // markers: true,
+                    },
+                    y: 150,
+                })
+
+                gsap.to(".globe", {
+                    scrollTrigger: {
+                        trigger: ".globe",
+                        start: "top 50%",
+                        end: "top -60%",
+                        scrub: 2,
+                        // markers: true,
+                    },
+                    y: 300,
+                    scale: 1.8
+                })
+
+                gsap.to(".crafting-wrapper", {
+                    scrollTrigger: {
+                        trigger: ".crafting-wrapper",
+                        start: "top 20%",
+                        end: "top -100%",
+                        scrub: 2,
+                        ease: "power3.inOut",
+                        // markers: true,
+                    },
+                    x: -150,
+                })
+
+                gsap.to(".testimonial-overlay", {
+                    scrollTrigger: {
+                        trigger: ".testimonial-overlay",
+                        start: "top 0%",
+                        scrub: 2,
+                        // markers: true,
+                    },
+                    y: 300,
+                })
+
+                gsap.to(".celebrating-overlay", {
+                    scrollTrigger: {
+                        trigger: ".bi-celebrating",
+                        start: "top 50%",
+                        end: "center center",
+                        scrub: 2,
+                        // markers: true,
+                    },
+                    // transformOrigin: "center center",
+                    y: 100,
+                    rotation: 360,
+                    repeate: -1,
+                    scale: 1,
+                    opacity: 1,
+                })
+
+
+                document.querySelector('.header-item .bi-btn').addEventListener("mouseenter", function () {
+                    gsap.to(cursorhero, {
+                        scale: 0,
+                        duration: .4,
+                    })
+                })
+                document.querySelector('.header-item img').addEventListener("mouseenter", function () {
+                    gsap.to(cursorhero, {
+                        scale: 0,
+                        duration: .4,
+                    })
+                })
+                document.querySelector('.header-item h5').addEventListener("mouseenter", function () {
+                    gsap.to(cursorhero, {
+                        scale: 0,
+                        duration: .4,
+                    })
+                })
+                document.querySelector('.header-item .bi-btn').addEventListener("mouseleave", function () {
+                    gsap.to(cursorhero, {
+                        scale: 1,
+                        duration: .4,
+                    })
+                })
+                document.querySelector('.header-item img').addEventListener("mouseleave", function () {
+                    gsap.to(cursorhero, {
+                        scale: 1,
+                        duration: .4,
+                    })
+                })
+                document.querySelector('.header-item h5').addEventListener("mouseleave", function () {
+                    gsap.to(cursorhero, {
+                        scale: 1,
+                        duration: .4,
+                    })
+                })
+
+
+                gsap.fromTo('.blur-anim',
+                    {
+                        y: 100,
+                        filter: "blur(4px)",
+                        opacity: 0.7,
+                        scale: 0.95
+                    },
+                    {
+                        y: 0,
+                        filter: "blur(0px)",
+                        opacity: 1,
+                        scale: 1,
+                        duration: 1,
+                        ease: "power2.out",
+                        stagger: .3,
+                        scrollTrigger: {
+                            trigger: '.blur-anim',
+                            start: "top 80%",
+                            toggleActions: "play none none reverse",
+                            // markers: true
+                        }
+                    }
+                );
+                document.querySelectorAll('.service-blur-anim').forEach((services) => {
+                    gsap.fromTo(services.children,
+                        {
+                            y: 100,
+                            filter: "blur(4px)",
+                            opacity: 0.7,
+                            scale: 0.95
+                        },
+                        {
+                            y: 0,
+                            filter: "blur(0px)",
+                            opacity: 1,
+                            scale: 1,
+                            duration: 1,
+                            ease: "power2.out",
+                            stagger: .3,
+                            scrollTrigger: {
+                                trigger: services,
+                                start: "top center",
+                                toggleActions: "play none none reverse",
+                                // markers: true
+                            }
+                        }
+                    );
+                })
+
+                gsap.utils.toArray('.top-blur-anim').forEach(topContent => {
+                    gsap.fromTo(topContent,
+                        {
+                            y: 100,
+                            filter: "blur(4px)",
+                            opacity: 0.7,
+                            scale: 0.95
+                        },
+                        {
+                            y: 0,
+                            filter: "blur(0px)",
+                            opacity: 1,
+                            scale: 1,
+                            duration: 1,
+                            ease: "power2.out",
+                            stagger: .3,
+                            scrollTrigger: {
+                                trigger: topContent,
+                                start: "top center",
+                                toggleActions: "play none none reverse",
+                                //   markers: true
+                            }
+                        }
+                    );
+                })
+
+                gsap.fromTo('.crafting-item-anim',
+                    {
+                        y: 100,
+                        filter: "blur(4px)",
+                        opacity: 0.7,
+                        scale: 0.95
+                    },
+                    {
+                        y: 0,
+                        filter: "blur(0px)",
+                        opacity: 1,
+                        scale: 1,
+                        duration: 1,
+                        ease: "power2.out",
+                        stagger: .3,
+                        scrollTrigger: {
+                            trigger: '.crafting-item-anim',
+                            start: "+=600px 80%",
+                            toggleActions: "play none none reverse",
+                            // markers: true
+                        }
+                    }
+                );
+
+                gsap.fromTo('.counter-item-anim',
+                    {
+                        y: 100,
+                        filter: "blur(4px)",
+                        opacity: 0.7,
+                        scale: 0.95
+                    },
+                    {
+                        y: 0,
+                        filter: "blur(0px)",
+                        opacity: 1,
+                        scale: 1,
+                        duration: 1,
+                        ease: "power2.out",
+                        stagger: .3,
+                        scrollTrigger: {
+                            trigger: '.bi-counter-section',
+                            start: "+=700px center",
+                            toggleActions: "play none none reverse",
+                            // markers: true
+                        }
+                    }
+                );
+                gsap.to('.hero-video-bg',
+                    {
+                        // y: 550,
+                        // x:200,
+                        filter: "blur(10px)",
+                        opacity:0,
+                        duration: 1,
+                        ease: "power2.out",
+                        scrollTrigger: {
+                            trigger: '.bi-hero',
+                            start: "center center",
+                            toggleActions: "play none none reverse",
+                            // markers: true,
+                            scrub: 1.5,
+                        }
+                    }
+                );
+
+
+
+            },
+        });
+    </script>
+
+    <script>
+        // Wait for DOM to be ready
+        document.addEventListener('DOMContentLoaded', function () {
+
+            // Open modal & populate hidden fields
+            document.querySelectorAll('.open-modal').forEach(btn => {
+                btn.addEventListener('click', e => {
+                    e.preventDefault();
+
+                    const price = btn.getAttribute('data-price');
+                    const title = btn.getAttribute('data-title');
+
+
+                    document.getElementById('modal-price').value = price;
+                    document.getElementById('modal-title').value = title;
+                    if (price !== 'N/A') {
+                        document.getElementById('modal-price-number').innerHTML = '$' + price;
+                    } else {
+                        document.getElementById('modal-price-number').innerHTML = '';
+                    }
+                    //   document.getElementById('modal-price-number').innerHTML = '$'+price;
+                    if (title !== 'Header Contact' && title !== 'Create Your Website' && title !== 'Get a Quote') {
+                        document.getElementById('modal-package').innerHTML = title;
+                    }
+                    else {
+                        document.getElementById('modal-package').innerHTML = 'Ready to Get Started?';
+                    }
+                });
+            });
+
+            // Close modal when clicking outside modal-content
+            window.addEventListener('click', e => {
+                if (e.target === document.getElementById('modal')) {
+                    document.getElementById('modal').style.display = 'none';
+                    //   alert('here');
+                }
+            });
+
+            // ✅ Use event delegation for form submit
+            document.addEventListener('submit', function (event) {
+                if (event.target.matches('.bi-form')) {
+                    event.preventDefault();
+                    const form = event.target;
+                    let formData = new FormData(form);
+
+                    fetch('send_email.php', {
+                        method: 'POST',
+                        body: formData
+                    })
+                        .then(response => response.text())
+                        .then(data => {
+                            const trimmedData = data.trim();
+
+                            if (trimmedData === 'success') {
+                                form.reset();
+                                // alert('Thank you! We will contact you soon.');
+                                document.getElementById('modal').style.display = 'none';
+
+                                setTimeout(() => {
+                                    window.location.href = 'https://americandesignhub.com/thankyou.html';
+                                }, 1000);
+                            } else {
+                                // alert('Something went wrong, please try again.');
+                            }
+                        })
+                        .catch(error => {
+                            console.error('Error:', error);
+                            alert('Error sending email!');
+                        });
+                }
+            });
+
+        });
+
+    </script>
+
+</body>
+
+
+</html>

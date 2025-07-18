@@ -1,0 +1,625 @@
+@media(min-width: 1520px){
+    .container{
+        max-width: 1520px;
+    }
+}
+
+@media(max-width: 1440px){
+    .header-item img {
+        max-width: 250px;
+        height: fit-content;
+    }
+    .theme-para {
+        font-size: 20px;
+    }
+    .main-content-wrapper p {
+        font-size: 30px;
+    }
+    .theme-heading {
+        font-size: 60px;
+    }
+    .service-top {
+        padding: 32px 40px;
+    }
+    .service-top h3 {
+        font-size: 25px;
+    }
+    .service-top p {
+        font-size: 17px;
+    }
+    .bi-services .container-fluid {
+        overflow: hidden;
+    }
+    .crafting-wrapper {
+        gap: 55px;
+    }
+    .crafting-item h3 {
+        font-size: 21px;
+    }
+    .crafting-item p {
+        font-size: 17px;
+        line-height: 1.35em;
+    }
+    .elevate-content h3 {
+        font-size: 41px;
+    }
+    .elevate-content.counter h3 {
+        font-size: 7vw;
+    }
+    .elevate-content.counter p {
+        font-size: 20px;
+    }
+    .list-content {
+        padding-right: 30px;
+    }
+    .list-img img {
+        height: 415px;
+    }
+    .projects-highlights div {
+        font-size: 12px;
+    }
+    .projects-slider-img img {
+        height: 430px;
+    }
+    .projects-slider-content .theme-para {
+        font-size: 24px;
+    }
+    .testimonial-wrapper {
+        margin-left: 130px;
+    }
+
+    .testimonial-content {
+        font-size: 20px;
+    }
+
+    .testimonial-item img {
+        height: 40px;
+    }
+
+    .testimonial-item .bi-btn img {
+        height: fit-content;
+    }
+
+    .testimonial-item .bi-btn {
+        font-size: 14px !important;
+    }
+
+    .bi-faq-wrapper .accordion-button {
+        font-size: 26px;
+    }
+
+    .bi-faq-wrapper .accordion-body {
+        font-size: 17px;
+    }
+
+    .bi-celebrating .container-fluid {
+        padding: 310px 0 200px;
+    }
+    .footer-left img {
+        max-width: 300px;
+    }
+    .footer-right a {
+        font-size: 55px;
+    }
+    .container.bottom-footer {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .bottom-footer .d-flex a {
+        font-size: 15px;
+    }
+    .copywrite {
+        width: 100%;
+        text-align: center;
+    }
+    .inner-page .bi-hero {
+        padding: 150px 0 100px;
+    }
+    .inner-page .hero-heading {
+        font-size: 46px;
+        letter-spacing: -2px;
+    }
+    .heading-wrapper p {
+        font-size: 18px;
+    }
+    .inner-page .bi-about .sub-heading-wrapper p {
+        font-size: 40px;
+    }
+    .highlight-list-item p {
+        font-size: 15px;
+    }
+
+    .highlight-list-item h4 {
+        font-size: 22px;
+    }
+
+    .package-wrapper {
+        padding: 30px;
+    }
+
+    .inner-page .theme-para.big {
+        font-size: 26px;
+    }
+}
+
+@media(max-width: 767px){
+    .hero-heading {
+        font-size: 6.229vw;
+    }
+    .img-fluid.hero-scroll {
+        bottom: 22.792vw;
+        max-width: 50px;
+    }
+    .success-wrapper .letter {
+        font-size: 25vw;
+    }
+    .header-item img {
+        max-width: 160px;
+    }
+    .header-item h5 {
+        display: none;
+    }
+    .bi-header .bi-btn {
+        font-size: 14px;
+        padding: 7px 23px;
+    }
+    .menu-icon {
+        padding: 14px 6px;
+        width: 40px;
+    }
+    .bi-hero {
+        padding: 200px 0 200px;
+    }
+    .heading-wrapper {
+        height: 75px;
+    }
+    .top-content {
+        flex-wrap: wrap;
+    }
+    .top-content .theme-heading {
+        margin-bottom: 20px;
+    }
+    .bi-about {
+        padding: 100px 0;
+    }
+    .main-content-wrapper p {
+        font-size: 22px;
+    }
+    .theme-para {
+        font-size: 17px;
+    }
+    .bi-services .container-fluid {
+        padding: 100px 0;
+    }
+    .theme-heading {
+        font-size: 45px;
+    }
+    .bi-services .row {
+        margin-top: 40px;
+    }
+    .service-top {
+        padding: 25px 30px;
+    }
+    .service-wrapper img {
+        width: 100%;
+    }
+    .service-top img {
+        width: fit-content;
+    }
+    .service-wrapper {
+        margin-bottom: 20px;
+    }
+    .service-wrapper.margin-top {
+        margin-top: 0px;
+    }
+    .crafting-item {
+        width: 100%;
+    }
+    .crafting-wrapper {
+        margin-top: 40px;
+        gap: 30px;
+    }
+    .elevate-wrapper {
+        margin-bottom: 25px;
+    }
+    .elevate-content h3 {
+        font-size: 34px;
+        letter-spacing: -2px;
+    }
+    .counter h3 {
+        font-size: 50px !important;
+        letter-spacing: -2px !important;
+    }
+    .bi-crafting-experience {
+        padding: 90px 0;
+    }
+    .projects-list {
+        margin-top: 40px;
+    }
+    .list-content h3 {
+        font-size: 30px;
+    }
+    .projects-highlights {
+        flex-wrap: wrap;
+    }
+    .list-content .theme-para {
+        font-size: 16px;
+    }
+    .list-content {
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+    .list-img img {
+        height: 350px;
+        border-radius: 20px;
+    }
+    .top-content.second {
+        margin: 90px 0 45px;
+    }
+    .projects-slider-item {
+        padding: 30px 80px 100px 30px;
+        border-radius: 20px 80px 20px 20px;
+    }
+    .projects-slider-content .gradient-heading {
+        font-size: 50px;
+        font-weight: 600;
+        margin-top: 45px;
+    }
+    .projects-slider-content .theme-para {
+        font-size: 20px;
+    }
+    .projects-slider-img {
+        margin-right: -50px;
+    }
+    .projects-slider-img img {
+        height: 330px;
+    }
+    .bi-btn {
+        font-size: 14px;
+        padding: 11px 25px;
+    }
+    .bi-projects .container-fluid {
+        padding: 80px 0;
+    }
+    .bi-logos {
+        padding: 70px 0 65px;
+    }
+    .bi-testimonial .container-fluid {
+        padding: 80px 0 20px;
+    }
+    .testimonial-content-wrapper {
+        margin-bottom: 45px;
+    }
+    .testimonial-wrapper {
+        margin-left: 0;
+    }
+    .testimonial-content {
+        font-size: 18px;
+    }
+    .author h2 {
+        font-size: 18px;
+    }
+    .bi-faq-wrapper {
+        margin-top: 70px;
+    }
+    .bi-faq-wrapper .theme-heading {
+        margin-bottom: 24px;
+    }
+    .bi-faq-wrapper .accordion-button {
+        font-size: 20px;
+    }
+    .bi-celebrating .container-fluid {
+        padding: 300px 0 70px;
+    }
+    .footer-left img {
+        margin-bottom: 40px;
+    }
+    .footer-list a {
+        font-size: 17px;
+    }
+    .footer-list {
+        margin: 0px 0 15px;
+    }
+    .footer-right a {
+        font-size: 40px;
+        letter-spacing: -2px;
+        margin-bottom: 30px;
+    }
+    .bottom-footer .d-flex {
+        flex-wrap: wrap;
+    }
+    .footer-right {
+        text-align: left;
+    }
+    .footer-right .bi-btn.transparent {
+        margin-right: auto;
+        margin-left: 0;
+    }
+    .hero-cursor{
+        display: none;
+    }
+    .inner-page .hero-heading {
+        font-size: 25px;
+        letter-spacing: -1px;
+    }
+
+    .heading-wrapper p {
+        font-size: 14px;
+    }
+
+    .inner-page .heading-wrapper {
+        max-width: 100%;
+        padding-left: 110px;
+        height: 100px;
+        margin-top: -180px;
+        margin-bottom: -10px;
+    }
+
+    .inner-page .bi-hero {
+        padding: 200px 0 100px;
+    }
+    .inner-page .bi-about {
+        padding: 75px 0 100px;
+    }
+
+    .inner-page .bi-about .sub-heading-wrapper p {
+        font-size: 32px;
+        letter-spacing: -2px;
+    }
+
+    .main-content-wrapper p {
+        font-size: 20px;
+    }
+
+    .project-slider {
+        margin-top: 70px;
+    }
+
+    .project-item img {
+        height: 300px;
+    }
+
+    .img-wrapper {
+        position: relative;
+        bottom: -75px;
+    }
+
+    .after-slider .container-fluid {
+        padding: 75px 0;
+    }
+
+    .heading-btn-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .highlight-list-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .highlight-list-item {
+        max-width: 100%;
+    }
+
+    .bi-packages .row {
+        margin-top: 40px;
+    }
+
+    .package-wrapper {
+        margin-top: 20px;
+    }
+
+    .package-price {
+        font-size: 44px;
+    }
+
+    .package-name {
+        font-size: 20px;
+    }
+
+    .bi-content-with-image {
+        padding: 80px 0;
+    }
+
+    .inner-page .theme-para.big {
+        font-size: 22px;
+    }
+}
+
+@media(max-width: 500px){
+    .success-wrapper .letter {
+        font-size: 85px;
+    }
+
+    .img-fluid.hero-scroll {
+        max-width: 35px;
+    }
+
+    .hero-heading {
+        font-size: 25px;
+        letter-spacing: -1px;
+    }
+
+    .bi-about {
+        padding: 70px 0;
+    }
+
+    .main-content-wrapper p {
+        font-size: 18px;
+    }
+
+    .theme-para {
+        font-size: 14px;
+    }
+
+    .bi-services .container-fluid {
+        padding: 70px 0 20px;
+    }
+
+    .theme-heading {
+        font-size: 30px;
+    }
+
+    .service-top {
+        padding: 20px 22px;
+    }
+
+    .service-top h3 {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    .service-top p {
+        font-size: 14px;
+    }
+
+    .bi-crafting-experience {
+        padding: 65px 0;
+    }
+
+    .bi-crafting-experience .theme-para {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .crafting-item img {
+        max-width: 40px;
+    }
+
+    .crafting-item h3 {
+        font-size: 18px;
+    }
+
+    .crafting-item p {
+        font-size: 14px;
+    }
+
+    .elevate-content h3 {
+        font-size: 25px;
+    }
+
+    .elevate-content p {
+        font-size: 14px;
+        max-width: 100%;
+    }
+
+    .elevate-content {
+        bottom: 30px;
+        left: 30px;
+    }
+
+    .elevate-content.counter p {
+        margin-bottom: 0;
+        font-size: 15px;
+    }
+
+    .projects-list-item {
+        padding: 26px 20px;
+    }
+
+    .list-content .theme-para {
+        font-size: 14px;
+    }
+
+    .list-img img {
+        height: 305px;
+    }
+
+    .projects-slider-content .theme-para {
+        font-size: 16px;
+    }
+
+    .projects-slider-img img {
+        height: 220px;
+    }
+
+    .bi-btn {
+        font-size: 13px !important;
+    }
+
+    .bi-testimonial .container-fluid {
+        padding: 50px 0 20px;
+    }
+
+    .testimonial-content-wrapper .theme-para {
+        margin: 22px 0 20px;
+    }
+
+    .testimonial-item {
+        padding: 22px;
+    }
+
+    .testimonial-content {
+        font-size: 16px;
+    }
+
+    .author h2 {
+        font-size: 15px;
+    }
+
+    .bi-faq-wrapper .accordion-button {
+        font-size: 16px;
+    }
+
+    .bi-faq-wrapper .accordion-body {
+        font-size: 14px;
+        padding: 0 20px 5px;
+        opacity: .8;
+    }
+
+    .footer-left img {
+        max-width: 200px;
+        margin-bottom: 25px;
+    }
+
+    .footer-list {
+        margin: 0px 0 8px;
+    }
+
+    .footer-list a {
+        font-size: 14px;
+    }
+
+    .footer-right a {
+        font-size: 30px;
+    }
+
+    .bottom-footer .d-flex a {
+        font-size: 13px;
+    }
+    .inner-page .img-fluid.hero-scroll {
+        bottom: -2.208vw;
+        max-width: 35px;
+    }
+    .inner-page .heading-wrapper {
+        padding-left: 70px;
+        margin-top: -230px;
+        margin-bottom: -10px;
+    }
+    .inner-page .hero-heading {
+        font-size: 20px;
+    }
+    .heading-wrapper p {
+        font-size: 12px;
+    }
+    .inner-page .heading-wrapper {
+        margin-top: -278px;
+        margin-bottom: 10px;
+    }
+    .inner-page .bi-about .sub-heading-wrapper p {
+        font-size: 26px;
+        letter-spacing: -1px;
+    }
+
+    .main-content-wrapper p {
+        font-size: 16px;
+    }
+
+    .inner-page .theme-para.big {
+        font-size: 18px;
+    }
+    .img-wrapper img {
+        border-radius: 22px;
+    }
+}
