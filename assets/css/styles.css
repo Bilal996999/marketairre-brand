@@ -292,6 +292,7 @@ p,span,input,ul,li,a,button{
     border-radius:19px;
     background-color: rgb(16 16 16 / 50%);
     backdrop-filter: blur(4px);
+    display: block;
 }
 .bi-services .row {
     margin-top: 90px;
@@ -582,12 +583,12 @@ p,span,input,ul,li,a,button{
 .celebrating-overlay{
     position: absolute;
     inset: 0;
-    top: -100px;
+    /* top: -100px; */
     width: fit-content;
     margin: auto;
     height: fit-content;
-    scale: .5;
-    opacity: .5;
+    /* scale: .5;
+    opacity: .5; */
     z-index: 2;
 }
 .bi-footer .container-fluid{
@@ -757,7 +758,7 @@ button#modal-close {
     height: 100vh !important;
     background: url('../img/hero-bg.jpg') no-repeat center;
     background-size: cover;
-    /* transform: translateY(0) !important; */
+    transform: translateY(0);
     /* scale: .5;
     clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%) */
 }
@@ -825,4 +826,11 @@ ul.service-menu li:last-child {
     display: block;
     position: relative;
     z-index:99;
+}
+.bi-footer {
+    margin-top: -3px;
+}
+.testimonial-item img {
+    max-width: 180px;
+    height: 55px;
 }
