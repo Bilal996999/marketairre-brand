@@ -847,3 +847,19 @@ ul.service-menu li:last-child {
   background-color: var(--themeColor);
   border-radius: 10px;
 }
+.slick-arrow {
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    position: absolute;
+    right: 40px;
+    bottom: 30px;
+    background-color: #000000;
+    filter: invert(1);
+    z-index: 9;
+    cursor: pointer;
+}
+.slick-arrow.slick-prev {
+    right: 80px !important;
+    rotate: 180deg;
+}

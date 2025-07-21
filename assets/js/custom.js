@@ -278,7 +278,7 @@ $('.project-slider').slick({
 
 $('.testimonial-wrapper').slick({
   dots: false,
-  arrows: false,
+  arrows: true,
   infinite: true,
   pauseOnFocus: false,
   pauseOnHover: false,
@@ -289,6 +289,8 @@ $('.testimonial-wrapper').slick({
   slidesToScroll: 1,
   fade: true,
   cssEase: 'linear',
+  prevArrow:"<img src='./assets/img/arrow.png' class='slick-prev'>",
+  nextArrow:"<img src='./assets/img/arrow.png' class='slick-next'>",
   responsive: [
     {
       breakpoint: 1398,
