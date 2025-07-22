@@ -141,6 +141,13 @@
     .inner-page .theme-para.big {
         font-size: 26px;
     }
+    .container, .container-fluid {
+        padding-inline: 33px;
+    }
+
+    .bi-hero .container, .container-fluid {
+        padding-inline: inherit;
+    }
 }
 
 @media(max-width: 767px){
