@@ -594,7 +594,7 @@ p,span,input,ul,li,a,button{
 .bi-footer .container-fluid{
     background: url('../img/Footer-bg.jpg') no-repeat center;
     background-size: cover;
-    padding: 60px 0 200px;
+    padding: 60px 0 120px;
     max-width: 98%;
     margin-inline: auto;
     position: relative;
@@ -823,7 +823,7 @@ ul.service-menu li:last-child {
     color: #fff;
 }
 .scroll-down{
-    display: block;
+    display: none;
     position: relative;
     z-index:99;
 }

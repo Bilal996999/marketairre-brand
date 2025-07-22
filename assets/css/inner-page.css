@@ -164,9 +164,9 @@
     background-color: rgb(110, 3, 46);
     transform: translateY(-10px);
 }
-.inner-page .bi-celebrating .container-fluid{
+/* .inner-page .bi-celebrating .container-fluid{
     background: transparent;
-}
+} */
 .inner-page  .testimonial-overlay{
     top: 40px;
 }

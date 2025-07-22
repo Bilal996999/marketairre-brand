@@ -197,7 +197,7 @@ $('.logo-slider').slick({
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
-        centerPadding: "20px",
+        centerPadding: "90px",
       }
     }
     // You can unslick at a given breakpoint now by adding:
