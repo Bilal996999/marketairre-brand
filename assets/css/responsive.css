@@ -1,10 +1,10 @@
-@media(min-width: 1520px){
+@media(min-width: 1560px){
     .container{
         max-width: 1520px;
     }
 }
 
-@media(max-width: 1520px){
+@media(max-width: 1559px){
     .header-item img {
         max-width: 250px;
         height: fit-content;
