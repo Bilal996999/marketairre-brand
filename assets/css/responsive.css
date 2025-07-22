@@ -4,7 +4,7 @@
     }
 }
 
-@media(max-width: 1440px){
+@media(max-width: 1520px){
     .header-item img {
         max-width: 250px;
         height: fit-content;
