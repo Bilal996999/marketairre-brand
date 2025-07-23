@@ -1,5 +1,5 @@
 .inner-page .bi-hero {
-    padding: 200px 0 50px;
+    padding: 160px 0 50px;
     background-position: center top;
 }
 .inner-page .heading-wrapper {
@@ -9,7 +9,7 @@
     margin-right: auto;
     padding-left: 80px;
     height: 275px;
-    margin-bottom: -105px;
+    margin-bottom: -50px;
 
 }
 .inner-page .heading-wrapper.bigger {

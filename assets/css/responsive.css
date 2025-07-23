@@ -114,7 +114,7 @@
         text-align: center;
     }
     .inner-page .bi-hero {
-        padding: 150px 0 100px;
+        padding: 160px 0 100px;
     }
     .inner-page .hero-heading {
         font-size: 46px;
@@ -147,6 +147,13 @@
 
     .bi-hero .container, .container-fluid {
         padding-inline: inherit;
+    }
+    ul.menu a {
+        font-size: 32px;
+    }
+
+    ul.service-menu a {
+        font-size: 26px;
     }
 }
 
@@ -364,7 +371,7 @@
     }
 
     .inner-page .bi-hero {
-        padding: 200px 0 100px;
+        padding: 160px 0 100px;
     }
     .inner-page .bi-about {
         padding: 75px 0 100px;
@@ -437,6 +444,26 @@
 
     .bi-contact {
         padding: 75px 0;
+    }
+    .inner-page .heading-wrapper.bigger {
+        max-width: 93%;
+    }
+    .inner-page .heading-wrapper {
+        padding-left: 35px;
+    }
+    .privacy-policy .bi-contact {
+        padding: 40px 0 60px;
+    }
+    .privacy-policy .bi-contact {
+        padding: 40px 0 60px;
+    }
+
+    .privacy-policy .bi-contact .theme-heading {
+        font-size: 32px;
+    }
+
+    .privacy-policy .bi-contact .theme-para {
+        font-size: 14px;
     }
 }
 
@@ -849,5 +876,8 @@
     .list-content .bi-btn.transparent {
         padding: 9px 17px;
         font-size: 12px !important;
+    }
+    .container, .container-fluid {
+        padding-inline: 15px;
     }
 }
